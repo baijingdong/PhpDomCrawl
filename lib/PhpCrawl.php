@@ -44,7 +44,7 @@
  * @author S.C. Chen <me578022@gmail.com>
  */
 
-
+namespace Bjd\PhpDom;
 class PhpCrawl{
 
     const HDOM_TYPE_ELEMENT = 1;

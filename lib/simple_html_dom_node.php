@@ -6,7 +6,7 @@
  *
  * @package PlaceLocalInclude
  */
-
+namespace Bjd\PhpDom;
 class simple_html_dom_node
 {
     const HDOM_TYPE_ELEMENT = 1;

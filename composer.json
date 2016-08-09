@@ -1,0 +1,10 @@
+{
+  "name": "Bjd/PhpDomCrawl",
+  "keywords": ["php","html","dom"],
+  "homepage": "https://github.com/baijingdong/PhpDomCrawl",
+  "description": "Fetch Html Dom Texts based on Php Script.",
+  "require": {
+    "php": ">=5.4.0",
+    "another-vendor/package": "1.*"
+  }
+}

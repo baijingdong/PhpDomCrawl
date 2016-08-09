@@ -1,13 +1,13 @@
 # PhpDomCrawl
-=====================================
+-------------------------------
 ###Introduce
-The core htmldomparse code source buy using https://sourceforge.net/p/simplehtmldom/code/HEAD/tree/trunk/simple_html_dom.php
+The core htmldomparse code source  using https://sourceforge.net/p/simplehtmldom/code/HEAD/tree/trunk/simple_html_dom.php
 
-Now you can easily get this code using composer��It's requires PHP 5.4+ to run.
+Now you can easily get this code through composer, It's requires PHP 5.4+ to run.
 
 ###Install
 
-following packagist acquire the latest vesion.
+checking packagist inorder to acquire the latest vesion.
 https://packagist.org/packages/bjd/php-dom-crawl
 
 add the following parameters:
@@ -58,9 +58,9 @@ class TestController extends Controller{
             $ss_vpn[$key]['server'] = $value->find("span")[0]->innertext();
 
             $matches = [];
-            preg_match_all("'�˿ڣ�\s?(.*?)<br\s?/>'is",$text,$matches);
+            preg_match_all("'¶Ë¿Ú£º\s?(.*?)<br\s?/>'is",$text,$matches);
             $ss_vpn[$key]['server_port'] = $matches[1][0];
-            preg_match_all("'���룺\s?(.*?)<br\s?/>'is",$text,$matches);
+            preg_match_all("'ÃÜÂë£º\s?(.*?)<br\s?/>'is",$text,$matches);
             $ss_vpn[$key]['password'] = $matches[1][0];
             $ss_vpn[$key]['method'] = $value->find("span")[1]->innertext();
             $ss_vpn[$key]['remarks'] = $value->find("span")[0]->innertext();

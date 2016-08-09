@@ -3,6 +3,7 @@
   "keywords": ["php","html","dom"],
   "homepage": "https://github.com/baijingdong/PhpDomCrawl",
   "description": "Fetch Html Dom Texts based on Php Script.",
+  "license": "apache 2.0",
   "require": {
     "php": ">=5.4.0"
   },

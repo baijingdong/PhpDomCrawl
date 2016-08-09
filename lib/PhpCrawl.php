@@ -44,7 +44,6 @@
  * @author S.C. Chen <me578022@gmail.com>
  */
 
-namespace Bjd\DomCrawl;
 
 class PhpCrawl{
 

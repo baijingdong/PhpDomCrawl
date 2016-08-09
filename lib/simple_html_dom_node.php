@@ -6,7 +6,7 @@
  *
  * @package PlaceLocalInclude
  */
-namespace Bjd\DomCrawl;
+
 class simple_html_dom_node
 {
     const HDOM_TYPE_ELEMENT = 1;
